@@ -27,7 +27,14 @@ Using the Proxy
 - (Root-cert path on the Pi after installation: ```/usr/local/squid/ssl/localCert.der```)
 - OR, just access some HTTPS webpages from the client via the proxy and choose to "Trust Cert". 
 
-Note
+Managing the Proxy
+======================
+- installed in: /usr/local/squid
+- to see if its running, list processes: ps -ef
+- to kill: killall squid
+- to run in background: /usr/local/squid/startsquid.sh *&* 
+
+Notes
 ======================
 - This deliberately uses a root-cert with weak encryption to support old devices
 - Make sure your is proxy safe.  
