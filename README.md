@@ -32,7 +32,8 @@ Managing the Proxy
 - installed in: `/usr/local/squid`
 - to see if its running, list processes: `ps -ef`
 - to kill: `killall squid`
-- to run in background: `/usr/local/squid/startsquid.sh **&**` 
+- to run in background: `/usr/local/squid/startsquid.sh &` 
+  + The & makes it go background after its startup messages
 
 Notes
 ======================
