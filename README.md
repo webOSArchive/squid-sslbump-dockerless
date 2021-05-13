@@ -10,8 +10,8 @@ Base Environment
 - ```sudo apt-get update```
 - ```sudo apt-get install git```
 
-Installation
-======================
+Installation on Bare Metal
+==========================
 ```sh
 git clone https://github.com/codepoet80/squid-sslbump-rpi.git
 cd squid-sslbump-rpi
@@ -19,6 +19,10 @@ chmod +x ./install.sh
 sudo ./install.sh
 ```
 - If you want, you can delete the ```squid-sslbump-rpi``` directory after install completes.
+
+Installation via Docker
+=======================
+Community member Nomad84 has documented his approach to [Dockerizing this service here](https://github.com/h8pewou/legacy_webos).
 
 Using the Proxy
 ======================
