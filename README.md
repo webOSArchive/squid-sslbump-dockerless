@@ -10,7 +10,8 @@ Base Environment
   - Requires `crypto` which can be had with `apt install libssl-dev`
   - Requires `libssl1.0-dev` which is no longer available. To fix:
       - add [this PPA](https://github.com/rvm/ubuntu_rvm): `sudo apt-add-repository -y ppa:rael-gc/rvm` 
-      - ``sudo apt install libssl1.0-dev`
+      - `sudo apt install libssl1.0-dev`
+  - Gave up and built on 18.04 and copied output folder to new machine 🤷‍♂️
 - Instructions below require git (or you can download the files directly)
 - ```sudo apt-get update```
 - ```sudo apt-get install git```
