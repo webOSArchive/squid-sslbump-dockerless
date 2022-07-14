@@ -5,7 +5,12 @@ squid ssl proxy with icap without Docker on raspberry pi. Based on justinschw/do
 Base Environment
 ======================
 - Tested on: raspbian/stretch on Pi Zero and Zero W (it works, but it takes a *long* time to build!)
-- Tested on: Ubuntu 18.04 on Azure
+- Tested on: Ubuntu 18.04
+- Could not build on: Ubuntu 20.04 on Azure
+  - Requires `crypto` which can be had with `apt install libssl-dev`
+  - Requires `libssl1.0-dev` which is no longer available. To fix:
+      - add [this PPA](https://github.com/rvm/ubuntu_rvm): `sudo apt-add-repository -y ppa:rael-gc/rvm` 
+      - ``sudo apt install libssl1.0-dev`
 - Instructions below require git (or you can download the files directly)
 - ```sudo apt-get update```
 - ```sudo apt-get install git```
