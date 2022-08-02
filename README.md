@@ -5,7 +5,7 @@ squid ssl proxy with icap without Docker on raspberry pi. Based on justinschw/do
 Base Environment
 ======================
 - ✅ Tested on: raspbian/stretch on Pi Zero and Zero W (it works, but it takes a *long* time to build!)
-- ✅ Tested on: Ubuntu 18.04
+- ✅ Tested on: Ubuntu 18.04 on x64
 - ❗Could not build on: Ubuntu 20.04
   - Requires `crypto` which can be had with `apt install libssl-dev`
   - Requires `libssl1.0-dev` which is no longer available. To fix:
