@@ -13,8 +13,8 @@ Base Environment
       - `sudo apt install libssl1.0-dev`
   - Gave up and built on 18.04 and copied output folder to new machine 🤷‍♂️
 - Instructions below require git (or you can download the files directly)
-- ```sudo apt-get update```
-- ```sudo apt-get install git```
+  - ```sudo apt-get update```
+  - ```sudo apt-get install git```
 
 Installation on Bare Metal
 ==========================
