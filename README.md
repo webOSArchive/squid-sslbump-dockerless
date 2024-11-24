@@ -1,6 +1,6 @@
-(docker-less) squid-sslbump-rpi
+(docker-less) squid-sslbump
 ======================
-squid ssl proxy with icap without Docker on raspberry pi. Based on justinschw/docker-squid-sslbump-rpi, which was based on syakesaba/docker-sslbump-proxy. The Docker install didn't work on my Pi Zero, so here it is on the "bare metal."
+squid ssl proxy with icap without Docker on Debian-based environments. Based on justinschw/docker-squid-sslbump-rpi, which was based on syakesaba/docker-sslbump-proxy. The Docker install didn't work on my Pi Zero, so here it is on the "bare metal."
 
 Base Environment
 ======================
